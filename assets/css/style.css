@@ -622,6 +622,23 @@ input:focus {
     background-size: 100%;
   }
 }
+@media only screen and (max-width: 600px) {
+  header {
+    background-position: 195px -37px;
+    background-size: 75%;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 499px) {
+  .about {
+    background-position: 301px -52px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .about {
+    background-size: 75%;
+    background-position: 354px -7px;
+  }
+}
 @media only screen and (min-width: 601px) and (max-width: 767px) {
   header {
     background-position: 337px -37px;
