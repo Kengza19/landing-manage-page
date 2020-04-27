@@ -432,10 +432,13 @@ input:focus {
 .mdl-close button span {
   vertical-align: super;
 }
-
+.mdl-close button:active{
+  background-color: white;
+}
 .mdl-close button {
-  font-size: 1.5em;
+  font-size: 2.1rem;
   font-weight: bold;
+  outline: none;
   width: 35px;
   height: 35px;
   color: #424242;
@@ -459,7 +462,7 @@ input:focus {
   padding-top: 4px;
 }
 #navig-mobile {
-  width: 85vw;
+  width: 18rem;
   height: auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
