@@ -422,6 +422,42 @@ input:focus {
 }
 
 /* Sidenav modal */
+.mdl-close {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  z-index: 111111;
+}
+
+.mdl-close button span {
+  vertical-align: super;
+}
+
+.mdl-close button {
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  color: #424242;
+  opacity: 1;
+  line-height: 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px 0 #a9d7f694;
+  background-color: #fff;
+  -webkit-appearance: none;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  cursor: pointer;
+  float: right;
+  text-shadow: 0 1px 0 #fff;
+  border: none;
+  text-transform: none;
+  overflow: visible;
+  margin: 0;
+  text-align: center;
+  padding: 0px;
+  padding-top: 4px;
+}
 #navig-mobile {
   width: 85vw;
   height: auto;
@@ -465,7 +501,7 @@ input:focus {
     flex-flow: column-reverse wrap;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 992px) {
   .logo-container img{
     width: 109%;
   }
@@ -573,7 +609,7 @@ input:focus {
     text-align: center;
   }
   header {
-    background-position: 32px -9px;
+    background-position: 35px -34px;
     background-size: 100%;
   }
   .test_about {
@@ -584,5 +620,37 @@ input:focus {
     background-repeat: no-repeat;
     background-position: 166px 75px;
     background-size: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  header {
+    background-position: 337px -37px;
+    background-size: 65%;
+  }
+  .about {
+    background-image: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 510px -22px;
+    background-size: 65%;
+  }
+  header, .about, .testimonials {
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  header {
+    background-position: 495px -84px;
+    background-size: 55%;
+  }
+  .about {
+    background-image: url("../images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: 839px -79px;
+    background-size: 55%;
+  }
+  header, .about, .testimonials {
+    padding-right: 6rem;
+    padding-left: 6rem;
   }
 }
